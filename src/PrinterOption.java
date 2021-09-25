@@ -1,12 +1,12 @@
 
 public class PrinterOption {
 	String name;
-	String printerType;
+	String printerAction;
 	double price;
 	
-	public PrinterOption(String name, String printerType, double price) {
+	public PrinterOption(String name, String printerAction, double price) {
 		this.name = name;
-		this.printerType = printerType;
+		this.printerAction = printerAction;
 		this.price = price;
 	}
 	
@@ -14,8 +14,8 @@ public class PrinterOption {
 		return name;
 	}
 	
-	public String getPrinterType() {
-		return printerType;
+	public String getPrinterAction() {
+		return printerAction;
 	}
 	
 	public double getPrice() {
